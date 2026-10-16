@@ -1,0 +1,28 @@
+ticker,field,description,used_for
+USDJPY BGN Curncy,PX_LAST,USD/JPY spot,returns; USD leg of the crosses
+AUDJPY BGN Curncy,PX_LAST,AUD/JPY spot,returns; AUD/USD rebuilt as AUDJPY/USDJPY
+NZDJPY BGN Curncy,PX_LAST,NZD/JPY spot,returns; NZD/USD rebuilt as NZDJPY/USDJPY
+GBPJPY BGN Curncy,PX_LAST,GBP/JPY spot,returns; GBP/USD rebuilt as GBPJPY/USDJPY
+CADJPY BGN Curncy,PX_LAST,CAD/JPY spot,returns; USD/CAD rebuilt as USDJPY/CADJPY
+USDJPYV3M BGN Curncy,PX_LAST,USD/JPY 3M ATM implied volatility,carry-to-risk denominator
+AUDJPYV3M BGN Curncy,PX_LAST,AUD/JPY 3M ATM implied volatility,carry-to-risk denominator
+NZDJPYV3M BGN Curncy,PX_LAST,NZD/JPY 3M ATM implied volatility,carry-to-risk denominator
+GBPJPYV3M BGN Curncy,PX_LAST,GBP/JPY 3M ATM implied volatility,carry-to-risk denominator
+CADJPYV3M BGN Curncy,PX_LAST,CAD/JPY 3M ATM implied volatility,carry-to-risk denominator
+USDJPY25R3M BGN Curncy,PX_LAST,USD/JPY 25-delta 3M risk reversal,risk reversal signal
+AUDJPY25R3M BGN Curncy,PX_LAST,AUD/JPY 25-delta 3M risk reversal,risk reversal signal
+NZDJPY25R3M BGN Curncy,PX_LAST,NZD/JPY 25-delta 3M risk reversal,risk reversal signal
+GBPJPY25R3M BGN Curncy,PX_LAST,GBP/JPY 25-delta 3M risk reversal,risk reversal signal
+CADJPY25R3M BGN Curncy,PX_LAST,CAD/JPY 25-delta 3M risk reversal,risk reversal signal
+JPY3M BGN Curncy,PX_LAST,USD/JPY 3M forward points (scale 1/100),JPY minus USD differential
+AUD3M BGN Curncy,PX_LAST,AUD/USD 3M forward points (scale 1/10000),AUD minus USD differential
+NZD3M BGN Curncy,PX_LAST,NZD/USD 3M forward points (scale 1/10000),NZD minus USD differential
+GBP3M BGN Curncy,PX_LAST,GBP/USD 3M forward points (scale 1/10000),GBP minus USD differential
+CAD3M BGN Curncy,PX_LAST,USD/CAD 3M forward points (scale 1/10000),CAD minus USD differential
+VIX Index,PX_LAST,CBOE VIX,probit control
+FDTR Index,PX_LAST,Fed funds target rate (upper bound from Dec 2008),policy-rate carry-to-risk; chart
+BOJDTR Index,PX_LAST,Bank of Japan policy rate,policy-rate carry-to-risk; chart
+MUTKCALM Index,PX_LAST,Japan uncollateralised overnight call rate,optional
+JPMVXYG7 Index,PX_LAST,JPMorgan G7 FX volatility index,optional
+USDJPYV1M BGN Curncy,PX_LAST,USD/JPY 1M ATM implied volatility,optional
+USDJPY25R1M BGN Curncy,PX_LAST,USD/JPY 25-delta 1M risk reversal,optional

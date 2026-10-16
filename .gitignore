@@ -1,0 +1,10 @@
+# Bloomberg data: never commit
+*.xlsx
+*.xls
+carry trade/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
